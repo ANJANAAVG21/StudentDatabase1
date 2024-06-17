@@ -32,3 +32,7 @@ git commit -m "Courses.csv"
 git status
 git init
 echo hello SQL
+git add students.csv
+git commit -m "Students.csv"
+git checkout -b studentDatabase
+psql --username=freecodecamp --dbname=postgres
